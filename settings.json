@@ -13,6 +13,19 @@
     "catppuccin": false
   },
   "autosave": "on_focus_change",
+  "auto_install_extensions": {
+    "aylin-theme": true,
+    "html": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "emmet": true,
+    "php": true,
+    "sql": true,
+    "xml": true,
+    "make": true,
+    "powershell": true,
+    "golangci-lint": true
+  },
   "restore_on_startup": "last_session",
   "ui_font_size": 16,
   "ui_font_family": "CaskaydiaCove Nerd Font",
