@@ -7,18 +7,27 @@
 // from the command palette.
 [
   {
-    "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
       // "ctrl+;": "workspace::NewTerminal"
-      "ctrl-t": "terminal_panel::ToggleFocus",
-      "ctrl+q+q": "zed::Quit"
+      // "ctrl+t": "terminal_panel::ToggleFocus",
+      // "ctrl+q+q": "zed::Quit"
     }
   },
   {
     "context": "Editor",
     "bindings": {
+      "ctrl-shift-enter": "assistant::ToggleFocus"
+      // "ctrl+shift+enter": "assistant::ToggleFocus"
       // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-j": "workspace::ToggleRightDock",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "ctrl-f11": "workspace::ToggleZoom"
     }
   }
 ]
