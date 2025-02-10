@@ -23,11 +23,19 @@
     }
   },
   {
-    "context": "Workspace",
+    "context": "Workspace || ProjectPanel || Editor",
     "bindings": {
+      "ctrl-e": "workspace::ToggleLeftDock",
       "ctrl-j": "workspace::ToggleRightDock",
       "ctrl-t": "workspace::ToggleBottomDock",
       "ctrl-f11": "workspace::ToggleZoom"
+    }
+  },
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == insert) && vim_operator == none && !VimWaiting",
+    "bindings": {
+      "shift shift": "file_finder::Toggle",
+      "ctrl-v": "vim::Paste"
     }
   }
 ]

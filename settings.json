@@ -79,14 +79,14 @@
     }
   },
   "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+    "diagnostics": true,
+    "metrics": true
   },
   "theme": {
     "mode": "dark",
     // "light": "Catppuccin Macchiato - No Italics",
     // "dark": "Blackula" // "Catppuccin Mocha - No Italics"
-    "dark": "Aylin Selene",
+    "dark": "Catppuccin Mocha - No Italics",
     "light": "Aylin Selene"
   },
   "experimental.theme_overrides": {
